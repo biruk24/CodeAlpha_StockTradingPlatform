@@ -1,0 +1,11 @@
+# CodeAlpha Stock Trading Platform data file (v1)
+STOCK|AAPL|Apple Inc.|190.0
+STOCK|GOOG|Alphabet Inc.|140.0
+STOCK|TSLA|Tesla Inc.|250.0
+STOCK|ABAYB|Abay Bank|80.0
+STOCK|TELE|Ethio Telecom|70.0
+STOCK|BOAX|Bank of Abyssinia|100.0
+STOCK|WGBX|Wegagen Bank|90.0
+USER|trader1|Trader|10000.0
+TXN|trader1|BUY|WGBX|1|90.0|2026-09-28T21:37:04.118510500
+TXN|trader1|SELL|WGBX|1|90.0|2026-09-28T21:37:37.038154100
