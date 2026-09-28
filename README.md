@@ -20,7 +20,7 @@ Simulates a basic trading environment: market data, buying and selling stocks, a
 ---
 
 ## Features
-- 📈 View market prices for 5 preloaded stocks
+- 📈 View market prices for 7 preloaded stocks
 - 💰 Buy and sell shares with a real cash balance that is enforced
 - 🧮 Weighted average cost basis — buying more of a stock you already own correctly blends the purchase price
 - 📊 Portfolio view: quantity, average buy price, current price, current value, and profit/loss per holding
@@ -28,6 +28,7 @@ Simulates a basic trading environment: market data, buying and selling stocks, a
 - 🎲 "Simulate market movement" — advances prices randomly (±5%) so you can watch your portfolio value change over time
 - 💾 **Automatic saving** — every buy, sell, and market move is written to disk; quit and relaunch to pick up exactly where you left off
 - 🛡 Robust validation: can't overspend, can't oversell, can't trade an unknown stock, and bad input or a damaged data file never crashes the app
+- I also uses local Ethiopian markets
 
 ## Architecture
 Layered architecture — each class has one job:
@@ -97,7 +98,7 @@ java -cp bin com.codealpha.stocktrading.Main
 java -cp bin com.codealpha.stocktrading.Main path/to/my_data.txt
 ```
 
-A new account starts with **$10,000** in simulated cash and 5 preloaded stocks: AAPL, GOOG, TSLA, AMZN, MSFT.
+A new account starts with **$10,000** in simulated cash and 5 preloaded stocks: AAPL, GOOG, TSLA, ABAYB, TELE, BOAX, WGBX.
 
 ## Data Persistence (File I/O)
 
