@@ -28,7 +28,7 @@ Simulates a basic trading environment: market data, buying and selling stocks, a
 - 🎲 "Simulate market movement" — advances prices randomly (±5%) so you can watch your portfolio value change over time
 - 💾 **Automatic saving** — every buy, sell, and market move is written to disk; quit and relaunch to pick up exactly where you left off
 - 🛡 Robust validation: can't overspend, can't oversell, can't trade an unknown stock, and bad input or a damaged data file never crashes the app
-  - 🌍 Includes sample stocks related to both international and Ethiopian companies
+- 🌍 Includes sample stocks related to both international and Ethiopian companies
 
 ## Architecture
 Layered architecture — each class has one job:
@@ -73,7 +73,7 @@ CodeAlpha_StockTradingPlatform/
 │   ├── ui/
 │   │   └── ConsoleUI.java
 │   └── Main.java
-├── data/                              (created on first run, git-ignored)
+├── data/                              
 │   └── trading_data.txt
 ├── .gitignore
 └── README.md
@@ -84,7 +84,7 @@ Requires **JDK 17 or later**.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/CodeAlpha_StockTradingPlatform.git
+git clone https://github.com/biruk24/CodeAlpha_StockTradingPlatform.git
 cd CodeAlpha_StockTradingPlatform
 
 # 2. Compile
@@ -98,7 +98,7 @@ java -cp bin com.codealpha.stocktrading.Main
 java -cp bin com.codealpha.stocktrading.Main path/to/my_data.txt
 ```
 
-A new account starts with **$10,000** in simulated cash and 5 preloaded stocks: AAPL, GOOG, TSLA, ABAYB, TELE, BOAX, WGBX.
+A new account starts with **$10,000** in simulated cash and 7 preloaded stocks: AAPL, GOOG, TSLA, ABAYB, TELE, BOAX, WGBX.
 
 ## Data Persistence (File I/O)
 
@@ -135,7 +135,7 @@ TXN|trader1|SELL|AAPL|3|186.2263193942208|2026-09-28T17:40:43.302932988
 ## Example Session
 ```
 No saved data found - starting a new account.
-=== CodeAlpha Stock Trading Platform ===
+>>>> CodeAlpha Stock Trading Platform <<<<
 
 Cash balance: $10000.00
 1. View market prices
