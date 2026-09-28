@@ -28,7 +28,7 @@ Simulates a basic trading environment: market data, buying and selling stocks, a
 - 🎲 "Simulate market movement" — advances prices randomly (±5%) so you can watch your portfolio value change over time
 - 💾 **Automatic saving** — every buy, sell, and market move is written to disk; quit and relaunch to pick up exactly where you left off
 - 🛡 Robust validation: can't overspend, can't oversell, can't trade an unknown stock, and bad input or a damaged data file never crashes the app
-- I also uses local Ethiopian markets
+  - 🌍 Includes sample stocks related to both international and Ethiopian companies
 
 ## Architecture
 Layered architecture — each class has one job:
